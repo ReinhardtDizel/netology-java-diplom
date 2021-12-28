@@ -20,7 +20,7 @@ public class Main {
         GServer server = new GServer(converter);
         server.start();
 
-        String url = "https://platform.kata.academy/images/man.png";
+        String url = "https://u.netology.ngcdn.ru/backend/uploads/legacy/users/avatar/6395666/101906.jpeg";
         converter.setMaxRatio(2);
         String imgTxt = converter.convert(url);
         //System.out.println(imgTxt);
