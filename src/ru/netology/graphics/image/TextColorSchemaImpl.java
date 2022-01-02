@@ -11,7 +11,6 @@ public class TextColorSchemaImpl implements TextColorSchema {
     @Override
     public char convert(int color) {
 
-
         int length = chars.length;
         int x = 255 / length;
         for (int i = 0; i < length; i++) {

@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class TextGraphicsConverterImpl implements TextGraphicsConverter {
 
-    private TextColorSchema schema;
+    private TextColorSchema schema = new TextColorSchemaImpl(new char[]{'#', '$', '@', '%', '*', '+', '-', '\''});
     private double maxRatio = 0;
     private int maxHeight = 0;
     private int maxWidth = 0;
